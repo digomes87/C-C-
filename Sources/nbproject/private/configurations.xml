@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="01Tetris">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="02DoodleJump">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="03Arkanoid">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="04Snake">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="05Minesweeper">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="06Fifteen-Puzzle">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="07Racing">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="08Outrun">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="09Xonix">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="10Bejeweled">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="11NetWalk">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="12MahjongSolitaire">
+        <df name="files">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="13Tron">
+        <in>main.cpp</in>
+      </df>
+      <df name="14Chess">
+        <df name="images">
+        </df>
+        <in>Connector.hpp</in>
+        <in>main.cpp</in>
+      </df>
+      <df name="15Volleyball">
+        <df name="images">
+        </df>
+        <in>main.cpp</in>
+      </df>
+      <df name="16Asteroids">
+        <df name="images">
+          <df name="explosions">
+          </df>
+        </df>
+        <in>main.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>4</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
